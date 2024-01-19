@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+}
+.text{
+    background-color: rgb(70, 70, 196);
+    text-align: center;
+    padding: 1.4rem;
+    color: white;
+}
+.container{
+    background-color: rgb(235, 239, 239);
+    color: black;
+    height: 5rem;
+    display: flex;
+    width: auto;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container a{
+    padding-inline: 2rem;
+    text-decoration: none;
+    color: rgb(21, 51, 171);
+    font-weight: 70rem;
+  
+}
+.container h1{
+    margin: auto;
+    gap: 0.5rem;
+    letter-spacing: 0.5rem;
+    
+}
+body hr{
+    width: 96%;  
+    margin: auto; 
+
+}
+.navbar{
+    height: 5rem;
+    background-color: rgb(235, 239, 239);
+   margin: auto;
+    width: auto;
+    justify-items: center;
+    display: flex;
+    text-align: center;
+    height: 10rem;
+}
+.navbar ul{
+    width: auto;
+    display: flex;
+    place-items: center;
+    margin: auto;
+    
+}
+.navbar ul li{
+    padding-inline: 1rem;
+    list-style: none;
+
+}
+.navbar ul li a{
+    color: rgb(28, 28, 190);
+    text-decoration: none;
+    font-style: bold;
+}
+button{
+    height: 3.4rem;
+    width: 10.3rem;
+    background-color: #11113c;
+    color: white;
+    border-radius: 0.5rem;
+    margin-left: 3.6rem;
+}
+.para{
+    background-color: rgb(223, 95, 95);
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 5rem;
+    align-items: center;
+}
+.bg-img{
+    height: 60rem;
+    width:auto;
+    background-image: url(image2.jpg) ;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.para1{
+    text-transform: uppercase;
+    color: rgb(239, 247, 203);
+    /* background-color: blue; */
+    margin: auto;
+    padding: 5.3rem;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+}
+.para2{
+    font-size: 2.5rem;
+    color: rgb(120, 120, 244);
+    font-style:italic;
+    font-display:initial;
+    margin: auto;
+    padding: 5rem;
+    display: flex;
+}
+button{
+    border-radius: 2rem;
+    background-color: aquamarine;
+    color: black;
+    font-style: bold;
+
+}
+.para3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 3rem;
+    display: flex;
+    background-image: url(image4.jpg);
+    background-size: cover;
+    color: rgb(33, 33, 36);
+    width: auto;
+    height: 4rem;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .navbar ul{
+        /* height: 300px; */
+      display: flex;
+      flex-direction: column;
+     }
+}
